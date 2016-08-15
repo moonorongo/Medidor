@@ -1,0 +1,1201 @@
+ (routes 
+  (resolution mm 100000)
+  (parser
+  )
+  (parser
+  )
+  (structure_out
+   (layer TOP (type signal)
+   )
+   (layer I1 (type signal)
+   )
+   (layer I2 (type signal)
+   )
+   (layer I3 (type signal)
+   )
+   (layer I4 (type signal)
+   )
+   (layer I5 (type signal)
+   )
+   (layer I6 (type signal)
+   )
+   (layer I7 (type signal)
+   )
+   (layer I8 (type signal)
+   )
+   (layer I9 (type signal)
+   )
+   (layer I10 (type signal)
+   )
+   (layer I11 (type signal)
+   )
+   (layer I12 (type signal)
+   )
+   (layer I13 (type signal)
+   )
+   (layer I14 (type signal)
+   )
+   (layer BOT (type signal)
+   )
+  )
+  (library_out
+  (padstack $VIA_POWER
+   (shape (circ TOP 152400 0 0))
+   (shape (circ I1 152400 0 0))
+   (shape (circ I2 152400 0 0))
+   (shape (circ I3 152400 0 0))
+   (shape (circ I4 152400 0 0))
+   (shape (circ I5 152400 0 0))
+   (shape (circ I6 152400 0 0))
+   (shape (circ I7 152400 0 0))
+   (shape (circ I8 152400 0 0))
+   (shape (circ I9 152400 0 0))
+   (shape (circ I10 152400 0 0))
+   (shape (circ I11 152400 0 0))
+   (shape (circ I12 152400 0 0))
+   (shape (circ I13 152400 0 0))
+   (shape (circ I14 152400 0 0))
+   (shape (circ BOT 152400 0 0))
+  )
+  (padstack $VIA_SIGNAL
+   (shape (circ TOP 152400 0 0))
+   (shape (circ I1 152400 0 0))
+   (shape (circ I2 152400 0 0))
+   (shape (circ I3 152400 0 0))
+   (shape (circ I4 152400 0 0))
+   (shape (circ I5 152400 0 0))
+   (shape (circ I6 152400 0 0))
+   (shape (circ I7 152400 0 0))
+   (shape (circ I8 152400 0 0))
+   (shape (circ I9 152400 0 0))
+   (shape (circ I10 152400 0 0))
+   (shape (circ I11 152400 0 0))
+   (shape (circ I12 152400 0 0))
+   (shape (circ I13 152400 0 0))
+   (shape (circ I14 152400 0 0))
+   (shape (circ BOT 152400 0 0))
+  )
+  )
+  (network_out
+   (Net #00000 
+   (rule
+   )
+   (wire (path BOT 50800  -8966200 7823200 -8966200 7658100 -8724900 7658100
+     -8724900 5994400 -8458300 5994400)
+    (connect (terminal pin RL11-0) (terminal pin IC1-14))
+   )
+   )
+   (Net #00001 
+   (rule
+   )
+   (wire (path BOT 50800  -8966200 8140700 -9296400 8140700 -9296400 6515100
+     -9220300 6515100 -9220300 6248400)
+    (connect (terminal pin RL12-0) (terminal pin IC1-0))
+   )
+   )
+   (Net #00002 
+   (rule
+   )
+   (wire (path BOT 50800  -9969500 6870700 -9969500 6591300 -10020300 6591300
+     -10020300 5994400 -9220300 5994400)
+    (connect (terminal pin RL13-0) (terminal pin IC1-1))
+   )
+   )
+   (Net #00003 
+   (rule
+   )
+   (wire (path BOT 50800  -9575800 5613400 -9220300 5613400 -9220300 5740400)
+    (connect (terminal pin RL14-0) (terminal pin IC1-2))
+   )
+   )
+   (Net #00004 
+   (rule
+   )
+   (wire (path BOT 50800  -9867900 5435600 -9563100 5435600 -9563100 5448300
+     -9410700 5448300 -9410700 5486400 -9220300 5486400)
+    (connect (terminal pin RL15-0) (terminal pin IC1-3))
+   )
+   )
+   (Net #00005 
+   (rule
+   )
+   (wire (path BOT 50800  -9220300 5232400 -9029700 5232400 -9029700 5953329
+     -8801100 5953329 -8801100 7188200 -8953500 7188200)
+    (connect (terminal pin IC1-4) (terminal pin RL16-0))
+   )
+   )
+   (Net #00006 
+   (rule
+   )
+   (wire (path BOT 50800  -8940800 7505700 -9220200 7505700 -9220200 6667500
+     -9105900 6667500 -9105900 5372100 -9372600 5372100 -9372600 4978400
+     -9220300 4978400)
+    (connect (terminal pin RL17-0) (terminal pin IC1-5))
+   )
+   )
+   (Net #00008 
+   (rule
+   )
+   (wire (path BOT 50800  -6893000 5283201 -7353300 5283201 -7353300 4152900
+     -8458300 4152900 -8458300 4470400)
+    (connect (terminal pin IC2-13) (terminal pin IC1-8))
+   )
+   )
+   (Net #00009 
+   (rule
+   )
+   (wire (path BOT 50800  -8572500 3810000 -8572500 2610200 -10020300 2610200
+     -10020300 1683200 -9849900 1683200)
+    (connect (terminal wire) (terminal pin ARDUINO1-4))
+   )
+   (wire (path BOT 50800  -2260600 4965700 -2133600 4965700 -2133600 4114800
+     -4000500 4114800)
+    (connect (terminal pin IC5-10) (terminal wire))
+   )
+   (wire (path BOT 50800  -7353300 3810000 -7353300 3657600 -4000500 3657600
+     -4000500 4114800)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -7353300 3810000 -7277100 3810000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -6893000 4521200 -7277100 4521200 -7277100 4152900)
+    (connect (terminal pin IC2-10) (terminal wire))
+   )
+   (wire (path BOT 50800  -8458300 4978400 -8343900 4978400 -8343900 4610100
+     -8610600 4610100 -8610600 3810000 -8572500 3810000)
+    (connect (terminal pin IC1-10) (terminal wire))
+   )
+   (wire (path BOT 50800  -4000500 4114800 -4000500 4483100 -3864800 4483100)
+    (connect (terminal wire) (terminal pin IC4-10))
+   )
+   (wire (path BOT 50800  -7277100 4152900 -7277100 3810000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -8572500 3810000 -7353300 3810000)
+    (connect (terminal wire) (terminal wire))
+   )
+   )
+   (Net #00010 
+   (rule
+   )
+   (wire (path BOT 50800  -6893000 4775200 -7048500 4775200 -7048500 4686300
+     -7467600 4686300 -7467600 4381500 -8191500 4381500 -8191500 5232400
+     -8458300 5232400)
+    (connect (terminal pin IC2-11) (terminal pin IC1-11))
+   )
+   (wire (path BOT 50800  -3733800 4610100 -4114800 4610100 -4114800 3771900)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -4114800 3771900 -5562600 3771900 -5562600 3848100)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -4076700 3771900 -4114800 3771900)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -5562600 3848100 -7010400 3848100 -7010400 4381500
+     -6743700 4381500 -6743700 4648200 -6893000 4648200 -6893000 4775200)
+    (connect (terminal wire) (terminal pin IC2-11))
+   )
+   (wire (path BOT 50800  -5562600 3848100 -5562600 5218900 -5430900 5218900)
+    (connect (terminal wire) (terminal pin IC3-11))
+   )
+   (wire (path BOT 50800  -2260600 5219700 -2590800 5219700 -2590800 4305300
+     -3733800 4305300 -3733800 4610100)
+    (connect (terminal pin IC5-11) (terminal wire))
+   )
+   (wire (path BOT 50800  -3864800 4737100 -3733800 4737100 -3733800 4610100)
+    (connect (terminal pin IC4-11) (terminal wire))
+   )
+   )
+   (Net #00011 
+   (rule
+   )
+   )
+   (Net #00017 
+   (rule
+   )
+   (wire (path BOT 50800  -9017000 10731500 -9017000 10934700 -9398000 10934700
+     -9398000 10439400 -10134600 10439400 -10134600 7823200 -9982200 7823200)
+    (connect (terminal pin 7SEG1-0) (terminal pin RL11-1))
+   )
+   )
+   (Net #00018 
+   (rule
+   )
+   (wire (path BOT 50800  -8763000 10731500 -8763000 10074241 -9982200 10074241
+     -9982200 8140700)
+    (connect (terminal pin 7SEG1-1) (terminal pin RL12-1))
+   )
+   )
+   (Net #00019 
+   (rule
+   )
+   (wire (path BOT 50800  -8953500 6870700 -9144000 6870700 -9144000 7962900
+     -8801100 7962900 -8801100 8610600 -9017000 8610600 -9017000 9207500)
+    (connect (terminal pin RL13-1) (terminal pin 7SEG1-2))
+   )
+   )
+   (Net #00020 
+   (rule
+   )
+   (wire (path BOT 50800  -9525000 9207500 -9525000 8496300 -9575800 8496300
+     -9575800 6629400)
+    (connect (terminal pin 7SEG1-5) (terminal pin RL14-1))
+   )
+   )
+   (Net #00021 
+   (rule
+   )
+   (wire (path BOT 50800  -9779000 9207500 -9779000 8418899 -9715500 8418899
+     -9715500 6743700 -9867900 6743700 -9867900 6451600)
+    (connect (terminal pin 7SEG1-7) (terminal pin RL15-1))
+   )
+   )
+   (Net #00022 
+   (rule
+   )
+   (wire (path BOT 50800  -9969500 7188200 -10210800 7188200 -10210800 10731500
+     -9779000 10731500)
+    (connect (terminal pin RL16-1) (terminal pin 7SEG1-8))
+   )
+   )
+   (Net #00023 
+   (rule
+   )
+   (wire (path BOT 50800  -9956800 7505700 -9791700 7505700 -9791700 7010400
+     -10287000 7010400 -10287000 10934700 -9525000 10934700 -9525000 10731500)
+    (connect (terminal pin RL17-1) (terminal pin 7SEG1-9))
+   )
+   )
+   (Net #00024 
+   (rule
+   )
+   (wire (path BOT 50800  -6893000 5537201 -6743700 5537201 -6743700 6019800
+     -7124700 6019800 -7124700 7048500 -6781800 7048500 -6781800 7353300
+     -7162800 7353300 -7162800 7823200 -7442200 7823200)
+    (connect (terminal pin IC2-14) (terminal pin RL21-0))
+   )
+   )
+   (Net #00025 
+   (rule
+   )
+   (wire (path BOT 50800  -7442200 8140700 -7442200 8382000 -7366000 8382000
+     -7366000 9486900 -7620000 9486900 -7620000 8860898 -7772400 8860898
+     -7772400 6743700 -7655000 6743700 -7655000 5791200)
+    (connect (terminal pin RL22-0) (terminal pin IC2-0))
+   )
+   )
+   (Net #00026 
+   (rule
+   )
+   (wire (path BOT 50800  -8458200 6870700 -8458200 6553200 -8648700 6553200
+     -8648700 6134100 -7772400 6134100 -7772400 5537200 -7655000 5537200)
+    (connect (terminal pin RL23-0) (terminal pin IC2-1))
+   )
+   )
+   (Net #00027 
+   (rule
+   )
+   (wire (path BOT 50800  -7655000 5283200 -7924800 5283200 -7924800 5588000)
+    (connect (terminal pin IC2-2) (terminal pin RL24-0))
+   )
+   )
+   (Net #00028 
+   (rule
+   )
+   (wire (path BOT 50800  -8166100 5372100 -8001000 5372100 -8001000 5029200
+     -7655000 5029200)
+    (connect (terminal pin RL25-0) (terminal pin IC2-3))
+   )
+   )
+   (Net #00029 
+   (rule
+   )
+   (wire (path BOT 50800  -7442200 7188200 -7315200 7188200 -7315200 7086600
+     -7200900 7086600 -7200900 5634373 -7429500 5634373 -7429500 4775200
+     -7655000 4775200)
+    (connect (terminal pin RL26-0) (terminal pin IC2-4))
+   )
+   )
+   (Net #00030 
+   (rule
+   )
+   (wire (path BOT 50800  -7442200 7505700 -7620000 7505700 -7620000 7010400
+     -7277100 7010400 -7277100 6139323 -7505700 6139323 -7505700 4914900
+     -7772400 4914900 -7772400 4521200 -7655000 4521200)
+    (connect (terminal pin RL27-0) (terminal pin IC2-5))
+   )
+   )
+   (Net #00032 
+   (rule
+   )
+   (wire (path BOT 50800  -5430900 5726900 -5753100 5726900 -5753100 4572000
+     -6400800 4572000 -6400800 4013200 -6893000 4013200)
+    (connect (terminal pin IC3-13) (terminal pin IC2-8))
+   )
+   )
+   (Net #00036 
+   (rule
+   )
+   (wire (path BOT 50800  -7493000 10731500 -7493000 10363200 -8534400 10363200
+     -8534400 8610600 -8648700 8610600 -8648700 7823200 -8458200 7823200)
+    (connect (terminal pin 7SEG2-0) (terminal pin RL21-1))
+   )
+   )
+   (Net #00037 
+   (rule
+   )
+   (wire (path BOT 50800  -8458200 8140700 -8458200 10210800 -7239000 10210800
+     -7239000 10731500)
+    (connect (terminal pin RL22-1) (terminal pin 7SEG2-1))
+   )
+   )
+   (Net #00038 
+   (rule
+   )
+   (wire (path BOT 50800  -7493000 9207500 -7493000 8534400 -7696200 8534400
+     -7696200 6870700 -7442200 6870700)
+    (connect (terminal pin 7SEG2-2) (terminal pin RL23-1))
+   )
+   )
+   (Net #00039 
+   (rule
+   )
+   (wire (path BOT 50800  -7924800 6604000 -7924800 6743700 -8001000 6743700
+     -8001000 9207500)
+    (connect (terminal pin RL24-1) (terminal pin 7SEG2-5))
+   )
+   )
+   (Net #00040 
+   (rule
+   )
+   (wire (path BOT 50800  -8255000 9207500 -8255000 7353300 -8648700 7353300
+     -8648700 7010400 -8166100 7010400 -8166100 6388100)
+    (connect (terminal pin 7SEG2-7) (terminal pin RL25-1))
+   )
+   )
+   (Net #00041 
+   (rule
+   )
+   (wire (path BOT 50800  -8255000 10731500 -8255000 10934700 -7874000 10934700
+     -7874000 10553700 -7620000 10553700 -7620000 10934700 -7010400 10934700
+     -7010400 10401300 -7162800 10401300 -7162800 9906000 -8128000 9906000
+     -8128000 8953500 -8153400 8953500 -8153400 7188200 -8458200 7188200)
+    (connect (terminal pin 7SEG2-8) (terminal pin RL26-1))
+   )
+   )
+   (Net #00042 
+   (rule
+   )
+   (wire (path BOT 50800  -8001000 10731500 -8001000 10515600 -8610600 10515600
+     -8610600 8778274 -8724900 8778274 -8724900 7734300 -8648700 7734300
+     -8648700 7505700 -8458200 7505700)
+    (connect (terminal pin 7SEG2-9) (terminal pin RL27-1))
+   )
+   )
+   (Net #00043 
+   (rule
+   )
+   (wire (path BOT 50800  -5918200 7823200 -5918200 7658100 -5600700 7658100
+     -5600700 5980900 -5430900 5980900)
+    (connect (terminal pin RL31-0) (terminal pin IC3-14))
+   )
+   )
+   (Net #00044 
+   (rule
+   )
+   (wire (path BOT 50800  -6192900 6234900 -6192900 8115300 -5918200 8115300)
+    (connect (terminal pin IC3-0) (terminal pin RL32-0))
+   )
+   )
+   (Net #00045 
+   (rule
+   )
+   (wire (path BOT 50800  -6192900 5980900 -6477000 5980900 -6477000 6096000
+     -6934200 6096000 -6934200 6896100)
+    (connect (terminal pin IC3-1) (terminal pin RL33-0))
+   )
+   )
+   (Net #00046 
+   (rule
+   )
+   (wire (path BOT 50800  -6426200 5575300 -6426200 5726900 -6192900 5726900)
+    (connect (terminal pin RL34-0) (terminal pin IC3-2))
+   )
+   )
+   (Net #00047 
+   (rule
+   )
+   (wire (path BOT 50800  -6654800 5346700 -6192900 5346700 -6192900 5472900)
+    (connect (terminal pin RL35-0) (terminal pin IC3-3))
+   )
+   )
+   (Net #00048 
+   (rule
+   )
+   (wire (path BOT 50800  -6192900 5218900 -6057900 5218900 -6057900 6593630
+     -5753100 6593630 -5753100 7188200 -5918200 7188200)
+    (connect (terminal pin IC3-4) (terminal pin RL36-0))
+   )
+   )
+   (Net #00049 
+   (rule
+   )
+   (wire (path BOT 50800  -6192900 4964900 -5981700 4964900 -5981700 6157719
+     -5676900 6157719 -5676900 7518400 -5918200 7518400)
+    (connect (terminal pin IC3-5) (terminal pin RL37-0))
+   )
+   )
+   (Net #00051 
+   (rule
+   )
+   (wire (path BOT 50800  -5430900 4456900 -5430900 4114800 -4267200 4114800
+     -4267200 5245101 -3864800 5245101)
+    (connect (terminal pin IC3-8) (terminal pin IC4-13))
+   )
+   )
+   (Net #00055 
+   (rule
+   )
+   (wire (path BOT 50800  -5969000 10731500 -5969000 10096500 -7010400 10096500
+     -7010400 8801100 -7086600 8801100 -7086600 7823200 -6934200 7823200)
+    (connect (terminal pin 7SEG3-0) (terminal pin RL31-1))
+   )
+   )
+   (Net #00056 
+   (rule
+   )
+   (wire (path BOT 50800  -5715000 10731500 -5715000 9907844 -6934200 9907844
+     -6934200 8115300)
+    (connect (terminal pin 7SEG3-1) (terminal pin RL32-1))
+   )
+   )
+   (Net #00057 
+   (rule
+   )
+   (wire (path BOT 50800  -5918200 6896100 -6096000 6896100 -6096000 7962900
+     -5753100 7962900 -5753100 8589044 -5969000 8589044 -5969000 9207500)
+    (connect (terminal pin RL33-1) (terminal pin 7SEG3-2))
+   )
+   )
+   (Net #00058 
+   (rule
+   )
+   (wire (path BOT 50800  -6426200 6591300 -6426200 8534400 -6477000 8534400
+     -6477000 9207500)
+    (connect (terminal pin RL34-1) (terminal pin 7SEG3-5))
+   )
+   )
+   (Net #00059 
+   (rule
+   )
+   (wire (path BOT 50800  -6731000 9207500 -6731000 8809063 -6654800 8809063
+     -6654800 6362700)
+    (connect (terminal pin 7SEG3-7) (terminal pin RL35-1))
+   )
+   )
+   (Net #00060 
+   (rule
+   )
+   (wire (path BOT 50800  -6731000 10731500 -6731000 10248900 -7086600 10248900
+     -7086600 8953500 -7277100 8953500 -7277100 7962900 -7620000 7962900
+     -7620000 7658100 -7239000 7658100 -7239000 7188200 -6934200 7188200)
+    (connect (terminal pin 7SEG3-8) (terminal pin RL36-1))
+   )
+   )
+   (Net #00061 
+   (rule
+   )
+   (wire (path BOT 50800  -6477000 10731500 -6477000 10477500 -6096000 10477500
+     -6096000 10934700 -5562600 10934700 -5562600 10515600 -5638800 10515600
+     -5638800 9671787 -6858000 9671787 -6858000 8399168 -6781800 8399168
+     -6781800 7518400 -6934200 7518400)
+    (connect (terminal pin 7SEG3-9) (terminal pin RL37-1))
+   )
+   )
+   (Net #00062 
+   (rule
+   )
+   (wire (path BOT 50800  -4394200 7835900 -4572000 7835900 -4572000 7353300
+     -3962400 7353300 -3962400 6819900 -4038600 6819900 -4038600 5499101
+     -3864800 5499101)
+    (connect (terminal pin RL41-0) (terminal pin IC4-14))
+   )
+   )
+   (Net #00063 
+   (rule
+   )
+   (wire (path BOT 50800  -4626800 5753100 -4626800 6419520 -4724400 6419520
+     -4724400 6705600 -4800600 6705600 -4800600 8915400 -4572000 8915400
+     -4572000 9410700 -4318000 9410700 -4318000 8801935 -4267200 8801935
+     -4267200 8420100 -4394200 8420100 -4394200 8128000)
+    (connect (terminal pin IC4-0) (terminal pin RL42-0))
+   )
+   )
+   (Net #00064 
+   (rule
+   )
+   (wire (path BOT 50800  -4626800 5499100 -4745450 5499100 -4745450 5753100
+     -4893985 5753100 -4893985 6172200 -5295900 6172200 -5295900 6553200
+     -5422900 6553200 -5422900 6858000)
+    (connect (terminal pin IC4-1) (terminal pin RL43-0))
+   )
+   )
+   (Net #00065 
+   (rule
+   )
+   (wire (path BOT 50800  -4626800 5245100 -4889500 5245100 -4889500 5537200)
+    (connect (terminal pin IC4-2) (terminal pin RL44-0))
+   )
+   )
+   (Net #00066 
+   (rule
+   )
+   (wire (path BOT 50800  -4626800 4991100 -5143500 4991100 -5143500 5308600)
+    (connect (terminal pin IC4-3) (terminal pin RL45-0))
+   )
+   )
+   (Net #00067 
+   (rule
+   )
+   (wire (path BOT 50800  -4626800 4737100 -4419600 4737100 -4419600 6515100
+     -4267200 6515100 -4267200 7010400 -4394200 7010400 -4394200 7188200)
+    (connect (terminal pin IC4-4) (terminal pin RL46-0))
+   )
+   )
+   (Net #00068 
+   (rule
+   )
+   (wire (path BOT 50800  -4394200 7505700 -4229100 7505700 -4229100 7975600
+     -4572000 7975600 -4572000 7924800 -4724400 7924800 -4724400 6781800
+     -4648200 6781800 -4648200 6667500 -4495800 6667500 -4495800 4876800
+     -4838700 4876800 -4838700 4483100 -4626800 4483100)
+    (connect (terminal pin RL47-0) (terminal pin IC4-5))
+   )
+   )
+   (Net #00070 
+   (rule
+   )
+   (wire (path BOT 50800  -3864800 3975100 -2057400 3975100 -2057400 5727700
+     -2260600 5727700)
+    (connect (terminal pin IC4-8) (terminal pin IC5-13))
+   )
+   )
+   (Net #00074 
+   (rule
+   )
+   (wire (path BOT 50800  -5410200 7835900 -5562600 7835900 -5562600 10363200
+     -4445000 10363200 -4445000 10731500)
+    (connect (terminal pin RL41-1) (terminal pin 7SEG4-0))
+   )
+   )
+   (Net #00075 
+   (rule
+   )
+   (wire (path BOT 50800  -5410200 8128000 -5410200 9944100 -4191000 9944100
+     -4191000 10731500)
+    (connect (terminal pin RL42-1) (terminal pin 7SEG4-1))
+   )
+   )
+   (Net #00076 
+   (rule
+   )
+   (wire (path BOT 50800  -4406900 6858000 -4648200 6858000 -4648200 8763000
+     -4445000 8763000 -4445000 9207500)
+    (connect (terminal pin RL43-1) (terminal pin 7SEG4-2))
+   )
+   )
+   (Net #00077 
+   (rule
+   )
+   (wire (path BOT 50800  -4889500 6553200 -4889500 6705600 -4953000 6705600
+     -4953000 9207500)
+    (connect (terminal pin RL44-1) (terminal pin 7SEG4-5))
+   )
+   )
+   (Net #00078 
+   (rule
+   )
+   (wire (path BOT 50800  -5143500 6324600 -5143500 6629400 -5156200 6629400
+     -5156200 9029700 -5207000 9029700 -5207000 9207500)
+    (connect (terminal pin RL45-1) (terminal pin 7SEG4-7))
+   )
+   )
+   (Net #00079 
+   (rule
+   )
+   (wire (path BOT 50800  -5207000 10731500 -5207000 11010900 -4038600 11010900
+     -4038600 9867900 -5080000 9867900 -5080000 8991600 -5067300 8991600
+     -5067300 7315200 -5410200 7315200 -5410200 7188200)
+    (connect (terminal pin 7SEG4-8) (terminal pin RL46-1))
+   )
+   )
+   (Net #00080 
+   (rule
+   )
+   (wire (path BOT 50800  -4953000 10731500 -4953000 10515600 -4572000 10515600
+     -4572000 10934700 -4318000 10934700 -4318000 10462460 -4343400 10462460
+     -4343400 10134600 -5486400 10134600 -5486400 8352444 -5257800 8352444
+     -5257800 7505700 -5410200 7505700)
+    (connect (terminal pin 7SEG4-9) (terminal pin RL47-1))
+   )
+   )
+   (Net #00081 
+   (rule
+   )
+   (wire (path BOT 50800  -2260600 5981700 -2438400 5981700 -2438400 7835900
+     -2679700 7835900)
+    (connect (terminal pin IC5-14) (terminal pin RL51-0))
+   )
+   )
+   (Net #00082 
+   (rule
+   )
+   (wire (path BOT 50800  -2679700 8102600 -3022600 8102600 -3022600 6235700)
+    (connect (terminal pin RL52-0) (terminal pin IC5-0))
+   )
+   )
+   (Net #00083 
+   (rule
+   )
+   (wire (path BOT 50800  -3784600 6845300 -3784600 5981700 -3022600 5981700)
+    (connect (terminal pin RL53-0) (terminal pin IC5-1))
+   )
+   )
+   (Net #00084 
+   (rule
+   )
+   (wire (path BOT 50800  -3022600 5727700 -3276600 5727700 -3276600 5549900)
+    (connect (terminal pin IC5-2) (terminal pin RL54-0))
+   )
+   )
+   (Net #00085 
+   (rule
+   )
+   (wire (path BOT 50800  -3543300 5321300 -3238500 5321300 -3238500 5334000
+     -3022600 5334000 -3022600 5473700)
+    (connect (terminal pin RL55-0) (terminal pin IC5-3))
+   )
+   )
+   (Net #00086 
+   (rule
+   )
+   (wire (path BOT 50800  -2679700 7188200 -2679700 7010400 -2628900 7010400
+     -2628900 6019800 -2895600 6019800 -2895600 5219700 -3022600 5219700)
+    (connect (terminal pin RL56-0) (terminal pin IC5-4))
+   )
+   )
+   (Net #00087 
+   (rule
+   )
+   (wire (path BOT 50800  -3022600 4965700 -2819400 4965700 -2819400 5943600
+     -2514600 5943600 -2514600 7505700 -2679700 7505700)
+    (connect (terminal pin IC5-5) (terminal pin RL57-0))
+   )
+   )
+   (Net #00093 
+   (rule
+   )
+   (wire (path BOT 50800  -2921000 10731500 -2921000 10934700 -2438400 10934700
+     -2438400 9410700 -3556000 9410700 -3556000 8921363 -3543300 8921363
+     -3543300 7835900 -3695700 7835900)
+    (connect (terminal pin 7SEG5-0) (terminal pin RL51-1))
+   )
+   )
+   (Net #00094 
+   (rule
+   )
+   (wire (path BOT 50800  -2667000 10731500 -2667000 10325100 -3810000 10325100
+     -3810000 8420100 -3695700 8420100 -3695700 8102600)
+    (connect (terminal pin 7SEG5-1) (terminal pin RL52-1))
+   )
+   )
+   (Net #00095 
+   (rule
+   )
+   (wire (path BOT 50800  -2768600 6845300 -2768600 6096000 -3200400 6096000
+     -3200400 6362700 -3124200 6362700 -3124200 8792111 -2921000 8792111
+     -2921000 9207500)
+    (connect (terminal pin RL53-1) (terminal pin 7SEG5-2))
+   )
+   )
+   (Net #00096 
+   (rule
+   )
+   (wire (path BOT 50800  -3429000 9207500 -3429000 6934200 -3619500 6934200
+     -3619500 6590852 -3695700 6590852 -3695700 6172200 -3276600 6172200
+     -3276600 6565900)
+    (connect (terminal pin 7SEG5-5) (terminal pin RL54-1))
+   )
+   )
+   (Net #00097 
+   (rule
+   )
+   (wire (path BOT 50800  -3683000 9207500 -3683000 9486900 -3048000 9486900
+     -3048000 8953500 -3276600 8953500 -3276600 6781800 -3543300 6781800
+     -3543300 6337300)
+    (connect (terminal pin 7SEG5-7) (terminal pin RL55-1))
+   )
+   )
+   (Net #00098 
+   (rule
+   )
+   (wire (path BOT 50800  -3695700 7188200 -3886200 7188200 -3886200 7429500
+     -3962400 7429500 -3962400 10731500 -3683000 10731500)
+    (connect (terminal pin RL56-1) (terminal pin 7SEG5-8))
+   )
+   )
+   (Net #00099 
+   (rule
+   )
+   (wire (path BOT 50800  -3695700 7505700 -3886200 7505700 -3886200 10477500
+     -3429000 10477500 -3429000 10731500)
+    (connect (terminal pin RL57-1) (terminal pin 7SEG5-9))
+   )
+   )
+   (Net #00100 
+   (rule
+   )
+   )
+   (Net #00101 
+   (rule
+   )
+   )
+   (Net #00102 
+   (rule
+   )
+   (wire (path BOT 50800  -4254500 1651000 -5600700 1651000 -5600700 2590800
+     -8343900 2590800 -8343900 1937200 -9849900 1937200)
+    (connect (terminal pin DRV_IZQ-7) (terminal pin ARDUINO1-5))
+   )
+   )
+   (Net #00103 
+   (rule
+   )
+   (wire (path BOT 50800  -9849900 2191200 -8420100 2191200 -8420100 2743200
+     -5448300 2743200 -5448300 1905000 -4254500 1905000)
+    (connect (terminal pin ARDUINO1-6) (terminal pin DRV_IZQ-6))
+   )
+   )
+   (Net #00104 
+   (rule
+   )
+   (wire (path BOT 50800  -9849900 2445200 -8496300 2445200 -8496300 3200400
+     -5732811 3200400 -5732811 3429000 -4254500 3429000)
+    (connect (terminal pin ARDUINO1-7) (terminal pin DRV_IZQ-0))
+   )
+   )
+   (Net #00105 
+   (rule
+   )
+   (wire (path BOT 50800  -8995900 2953900 -8995900 2775200 -9849900 2775200)
+    (connect (terminal pin SSENS-0) (terminal pin ARDUINO2-0))
+   )
+   )
+   (Net #00106 
+   (rule
+   )
+   (wire (path BOT 50800  -9849900 3029200 -9258300 3029200 -9258300 3253900
+     -8995900 3253900)
+    (connect (terminal pin ARDUINO2-1) (terminal pin ESENS-0))
+   )
+   )
+   (Net #00107 
+   (rule
+   )
+   (wire (path BOT 50800  -8995900 3553900 -9410700 3553900 -9410700 3283200
+     -9849900 3283200)
+    (connect (terminal pin BLOCK-0) (terminal pin ARDUINO2-2))
+   )
+   )
+   (Net #00108 
+   (rule
+   )
+   )
+   (Net #00109 
+   (rule
+   )
+   )
+   (Net #00110 
+   (rule
+   )
+   )
+   (Net #00117 
+   (rule
+   )
+   (wire (path BOT 50800  -6924301 2418100 -8191500 2418100 -8191500 495300
+     -10134600 495300 -10134600 4299200 -9849900 4299200)
+    (connect (terminal wire) (terminal pin ARDUINO2-6))
+   )
+   (wire (path BOT 50800  -6924300 710300 -6924300 2110300)
+    (connect (terminal pin TECLADO-4) (terminal wire))
+   )
+   (wire (path BOT 50800  -6924301 2418100 -6924300 2418100 -6924300 2110300)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -6690300 2418100 -6924301 2418100)
+    (connect (terminal pin R7-0) (terminal wire))
+   )
+   (wire (path BOT 50800  -6924300 2110300 -6690300 2110300)
+    (connect (terminal wire) (terminal pin R1-0))
+   )
+   )
+   (Net #00121 
+   (rule
+   )
+   (wire (path BOT 50800  -4127500 8115300 -4127500 8953500 -4191000 8953500
+     -4191000 9207500)
+    (connect (terminal pin RL48-0) (terminal pin 7SEG4-6))
+   )
+   )
+   (Net #00123 
+   (rule
+   )
+   (wire (path BOT 50800  -7440300 2110300 -7440300 1700696 -7690300 1700696
+     -7690300 1094300)
+    (connect (terminal pin R5-0) (terminal pin R4-1))
+   )
+   (wire (path BOT 50800  -7686300 710300 -7690300 710300 -7690300 1094300)
+    (connect (terminal pin TECLADO-1) (terminal pin R4-1))
+   )
+   )
+   (Net #00124 
+   (rule
+   )
+   (wire (path BOT 50800  -7190300 2110300 -7190300 1364634 -7440300 1364634
+     -7440300 1094300)
+    (connect (terminal pin R6-0) (terminal pin R5-1))
+   )
+   (wire (path BOT 50800  -7432300 710300 -7440300 710300 -7440300 1094300)
+    (connect (terminal pin TECLADO-2) (terminal pin R5-1))
+   )
+   )
+   (Net #00125 
+   (rule
+   )
+   (wire (path BOT 50800  -7178300 710300 -7190300 710300 -7190300 1094300)
+    (connect (terminal pin TECLADO-3) (terminal pin R6-1))
+   )
+   )
+   (Net #00126 
+   (rule
+   )
+   (wire (path BOT 50800  -6440300 2110300 -6440300 1564193 -6690300 1564193
+     -6690300 1094300)
+    (connect (terminal pin R2-0) (terminal pin R1-1))
+   )
+   (wire (path BOT 50800  -6670300 710300 -6690300 710300 -6690300 1094300)
+    (connect (terminal pin TECLADO-5) (terminal pin R1-1))
+   )
+   )
+   (Net #00127 
+   (rule
+   )
+   (wire (path BOT 50800  -6162300 710300 -6190300 710300 -6190300 1094300)
+    (connect (terminal pin TECLADO-7) (terminal pin R3-1))
+   )
+   )
+   (Net #00128 
+   (rule
+   )
+   (wire (path BOT 50800  -6440300 1094300 -6440300 1409700 -6190300 1409700
+     -6190300 2110300)
+    (connect (terminal pin R2-1) (terminal pin R3-0))
+   )
+   (wire (path BOT 50800  -6416300 710300 -6440300 710300 -6440300 1094300)
+    (connect (terminal pin TECLADO-6) (terminal pin R2-1))
+   )
+   )
+   (Net #00134 
+   (rule
+   )
+   (wire (path BOT 50800  -2907500 3429000 -2324100 3429000 -2324100 457200
+     -4763700 457200 -4763700 696500)
+    (connect (terminal pin DRV_DER-0) (terminal pin 3V-0))
+   )
+   )
+   (Net #00136 
+   (rule
+   )
+   (wire (path BOT 50800  -2907500 2921000 -3810000 2921000 -3810000 914400
+     -4313700 914400 -4313700 696500)
+    (connect (terminal pin DRV_DER-2) (terminal pin 2B-0))
+   )
+   )
+   (Net #00137 
+   (rule
+   )
+   (wire (path BOT 50800  -3863700 696500 -3657600 696500 -3657600 2667000
+     -2907500 2667000)
+    (connect (terminal pin 1B-0) (terminal pin DRV_DER-3))
+   )
+   )
+   (Net #00138 
+   (rule
+   )
+   (wire (path BOT 50800  -2907500 2413000 -3413700 2413000 -3413700 696500)
+    (connect (terminal pin DRV_DER-4) (terminal pin 1A-0))
+   )
+   )
+   (Net #00139 
+   (rule
+   )
+   (wire (path BOT 50800  -2984500 685800 -2984500 1244501 -3086100 1244501
+     -3086100 2159000 -2907500 2159000)
+    (connect (terminal pin 2A-0) (terminal pin DRV_DER-5))
+   )
+   )
+   (Net #00141 
+   (rule
+   )
+   (wire (path BOT 50800  -4254500 3175000 -4952200 3175000 -4952200 2784400)
+    (connect (terminal pin DRV_IZQ-1) (terminal pin JP2-0))
+   )
+   )
+   (Net #00142 
+   (rule
+   )
+   (wire (path BOT 50800  -4952200 2484400 -4762500 2484400 -4762500 2921000
+     -4254500 2921000)
+    (connect (terminal pin JP1-0) (terminal pin DRV_IZQ-2))
+   )
+   )
+   (Net #00143 
+   (rule
+   )
+   (wire (path BOT 50800  -4952200 2184400 -4686300 2184400 -4686300 2667000
+     -4254500 2667000)
+    (connect (terminal pin JP3-0) (terminal pin DRV_IZQ-3))
+   )
+   )
+   (Net GND 
+   (rule
+   )
+   (wire (path BOT 50800  -9849900 4807200 -9849900 5143500 -10401300 5143500
+     -10401300 11010900 -8915400 11010900)
+    (connect (terminal pin ARDUINO2-8) (terminal wire))
+   )
+   (wire (path BOT 50800  -4626800 3975100 -4191000 3975100 -4191000 4876800
+     -3733800 4876800)
+    (connect (terminal pin IC4-7) (terminal wire))
+   )
+   (wire (path BOT 50800  -4626800 3581400 -4076700 3581400 -4076700 3175000
+     -2907500 3175000)
+    (connect (terminal wire) (terminal pin DRV_DER-1))
+   )
+   (wire (path BOT 50800  -7655000 4013200 -7655000 3434100 -6690300 3434100)
+    (connect (terminal pin IC2-7) (terminal pin R7-1))
+   )
+   (wire (path BOT 50800  -5676900 4343400 -5676900 4456900)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -6893000 5029200 -6591300 5029200 -6591300 4343400
+     -5676900 4343400)
+    (connect (terminal pin IC2-12) (terminal wire))
+   )
+   (wire (path BOT 50800  -5676900 4343400 -5676900 3975100 -4626800 3975100)
+    (connect (terminal wire) (terminal pin IC4-7))
+   )
+   (wire (path BOT 50800  -8458300 5486400 -8763000 5486400 -8763000 4470400)
+    (connect (terminal pin IC1-12) (terminal wire))
+   )
+   (wire (path BOT 50800  -4626800 3581400 -6362700 3581400 -6362700 3434100
+     -6690300 3434100)
+    (connect (terminal wire) (terminal pin R7-1))
+   )
+   (wire (path BOT 50800  -9220300 4470400 -9525000 4470400 -9525000 4807200
+     -9849900 4807200)
+    (connect (terminal pin IC1-7) (terminal pin ARDUINO2-8))
+   )
+   (wire (path BOT 50800  -8763000 4013200 -8741900 4013200 -8741900 3553900)
+    (connect (terminal wire) (terminal pin BLOCK-1))
+   )
+   (wire (path BOT 50800  -7655000 4013200 -8763000 4013200)
+    (connect (terminal pin IC2-7) (terminal wire))
+   )
+   (wire (path BOT 50800  -6192900 4456900 -5676900 4456900)
+    (connect (terminal pin IC3-7) (terminal wire))
+   )
+   (wire (path BOT 50800  -8763000 4470400 -9220300 4470400)
+    (connect (terminal wire) (terminal pin IC1-7))
+   )
+   (wire (path BOT 50800  -8763000 4013200 -8763000 4470400)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -4626800 3975100 -4626800 3581400)
+    (connect (terminal pin IC4-7) (terminal wire))
+   )
+   (wire (path BOT 50800  -5430900 5472900 -5676900 5472900 -5676900 4456900)
+    (connect (terminal pin IC3-12) (terminal wire))
+   )
+   (wire (path BOT 50800  -8741900 3253900 -8741900 3553900)
+    (connect (terminal pin ESENS-1) (terminal pin BLOCK-1))
+   )
+   (wire (path BOT 50800  -8741900 3253900 -8741900 2953900)
+    (connect (terminal pin ESENS-1) (terminal pin SSENS-1))
+   )
+   (wire (path BOT 50800  -3022600 4457700 -2667000 4457700 -2667000 5473700
+     -2260600 5473700)
+    (connect (terminal pin IC5-7) (terminal pin IC5-12))
+   )
+   (wire (path BOT 50800  -5334000 11087100 -3175000 11087100 -3175000 10731500)
+    (connect (terminal wire) (terminal pin 7SEG5-3))
+   )
+   (wire (path BOT 50800  -3733800 4876800 -3581400 4876800 -3581400 4457700
+     -3022600 4457700)
+    (connect (terminal wire) (terminal pin IC5-7))
+   )
+   (wire (path BOT 50800  -5334000 11087100 -5334000 10553700 -5080000 10553700
+     -5080000 10934700 -4699000 10934700 -4699000 10731500)
+    (connect (terminal wire) (terminal pin 7SEG4-3))
+   )
+   (wire (path BOT 50800  -8915400 11010900 -8763000 11010900 -8763000 10934700
+     -8890000 10934700 -8890000 10477500 -9271000 10477500 -9271000 10731500)
+    (connect (terminal wire) (terminal pin 7SEG1-3))
+   )
+   (wire (path BOT 50800  -8915400 11010900 -8915400 11087100 -7772400 11087100)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -3733800 4876800 -3733800 4991100 -3864800 4991100)
+    (connect (terminal wire) (terminal pin IC4-12))
+   )
+   (wire (path BOT 50800  -2907500 1651000 -2907500 1409700 -2540000 1409700
+     -2540000 698500)
+    (connect (terminal pin DRV_DER-7) (terminal pin GND-0))
+   )
+   (wire (path BOT 50800  -7747000 10731500 -7772400 10731500 -7772400 11087100)
+    (connect (terminal pin 7SEG2-3) (terminal wire))
+   )
+   (wire (path BOT 50800  -6223000 11087100 -7772400 11087100)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -5334000 11087100 -6223000 11087100)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -6223000 11087100 -6223000 10731500)
+    (connect (terminal wire) (terminal pin 7SEG3-3))
+   )
+   (wire (path BOT 50800  -2907500 3175000 -2743200 3175000 -2743200 1651000
+     -2907500 1651000)
+    (connect (terminal pin DRV_DER-1) (terminal pin DRV_DER-7))
+   )
+   )
+   (Net VCC/VDD 
+   (rule
+   )
+   (wire (path BOT 50800  -9849900 4553200 -10210800 4553200 -10210800 342900
+     -7848600 342900 -7848600 457200)
+    (connect (terminal pin ARDUINO2-7) (terminal wire))
+   )
+   (wire (path BOT 50800  -7848600 457200 -7940300 457200)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -4254500 2159000 -4076700 2159000 -4076700 1409700
+     -5448300 1409700 -5448300 1066800 -5263700 1066800 -5263700 696500)
+    (connect (terminal pin DRV_IZQ-5) (terminal pin 5V-0))
+   )
+   (wire (path BOT 50800  -5295900 5853900 -5905500 5853900 -5905500 4838700
+     -6362700 4838700 -6362700 5143500 -7010400 5143500)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -5295900 4710900 -5295900 4343400 -4343400 4343400
+     -4343400 5448300 -4127500 5448300)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -4127500 5448300 -4127500 5372100)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -8458300 6248400 -8343900 6248400 -8343900 5372100
+     -8610600 5372100 -8610600 4724400)
+    (connect (terminal pin IC1-15) (terminal wire))
+   )
+   (wire (path BOT 50800  -9849900 4553200 -9601200 4553200 -9601200 4343400
+     -8686800 4343400 -8686800 4724400 -8610600 4724400)
+    (connect (terminal pin ARDUINO2-7) (terminal wire))
+   )
+   (wire (path BOT 50800  -7010400 5143500 -7010400 4914900 -6667500 4914900
+     -6667500 4267200 -6893000 4267200)
+    (connect (terminal wire) (terminal pin IC2-9))
+   )
+   (wire (path BOT 50800  -7010400 5143500 -7010400 5791200 -6893000 5791200)
+    (connect (terminal wire) (terminal pin IC2-15))
+   )
+   (wire (path BOT 50800  -5486400 457200 -5263700 457200 -5263700 696500)
+    (connect (terminal wire) (terminal pin 5V-0))
+   )
+   (wire (path BOT 50800  -5486400 381000 -5486400 457200)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -5295900 4710900 -5295900 5853900)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -5295900 4710900 -5430900 4710900)
+    (connect (terminal wire) (terminal pin IC3-9))
+   )
+   (wire (path BOT 50800  -3864800 4229100 -2400300 4229100 -2400300 4838700)
+    (connect (terminal pin IC4-9) (terminal wire))
+   )
+   (wire (path BOT 50800  -7940300 710300 -7940300 1790700 -7690300 1790700
+     -7690300 2110300)
+    (connect (terminal pin TECLADO-0) (terminal pin R4-0))
+   )
+   (wire (path BOT 50800  -2400300 4838700 -2400300 5105400 -2133600 5105400
+     -2133600 5600700 -2743200 5600700)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -8458300 4724400 -8610600 4724400)
+    (connect (terminal pin IC1-9) (terminal wire))
+   )
+   (wire (path BOT 50800  -3695700 5372100 -3695700 5143500 -3429000 5143500
+     -3429000 4838700 -2743200 4838700 -2743200 5600700)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -2743200 5600700 -2743200 5867400 -2095500 5867400)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -5295900 5853900 -5295900 6096000 -5430900 6096000
+     -5430900 6234900)
+    (connect (terminal wire) (terminal pin IC3-15))
+   )
+   (wire (path BOT 50800  -4254500 2159000 -4610100 2159000 -4610100 2019300
+     -5206200 2019300 -5206200 2184400)
+    (connect (terminal pin DRV_IZQ-5) (terminal pin JP3-1))
+   )
+   (wire (path BOT 50800  -2260600 4711700 -2260600 4838700 -2400300 4838700)
+    (connect (terminal pin IC5-9) (terminal wire))
+   )
+   (wire (path BOT 50800  -5486400 457200 -7848600 457200)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -4127500 7099300 -4127500 5448300)
+    (connect (terminal pin RL48-1) (terminal wire))
+   )
+   (wire (path BOT 50800  -4127500 5372100 -3695700 5372100)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -5206200 2784400 -5206200 2484400)
+    (connect (terminal pin JP2-1) (terminal pin JP1-1))
+   )
+   (wire (path BOT 50800  -5206200 2484400 -5206200 2184400)
+    (connect (terminal pin JP1-1) (terminal pin JP3-1))
+   )
+   (wire (path BOT 50800  -4254500 2159000 -4254500 2413000)
+    (connect (terminal pin DRV_IZQ-5) (terminal pin DRV_IZQ-4))
+   )
+   (wire (path BOT 50800  -7940300 457200 -7940300 710300)
+    (connect (terminal wire) (terminal pin TECLADO-0))
+   )
+   (wire (path BOT 50800  -2095500 5867400 -1905000 5867400 -1905000 228600
+     -5486400 228600 -5486400 381000)
+    (connect (terminal wire) (terminal wire))
+   )
+   (wire (path BOT 50800  -3864800 5753100 -3695700 5753100 -3695700 5372100)
+    (connect (terminal pin IC4-15) (terminal wire))
+   )
+   (wire (path BOT 50800  -2260600 6235700 -2095500 6235700 -2095500 5867400)
+    (connect (terminal pin IC5-15) (terminal wire))
+   )
+   )
+  )
+ )

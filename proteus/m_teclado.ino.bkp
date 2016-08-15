@@ -1,0 +1,133 @@
+#include <OnewireKeypad.h>
+
+int estadoM1; 
+
+char Teclas[16] = {
+      '1','2','3', 'A',
+      '4','5','6', 'B',
+      '7','8','9', 'C',
+      '.','0','#', 'D',
+    };
+    
+//OnewireKeypad <Print, 16 > Teclado1(Serial, Teclas, 4, 4, A0, 4700, 1000 );
+/*
+    Armar una maquina de estados, que lea A0, A1, A2, A3, como diferentes columnas
+    en base a eso, que setee pulsacion que se presionó
+    modificar m_teclado, para que cuando detecte que cambio (pulsacion anterior)
+    y volar OnewireKeypad, que es una garcha y esta hecho para la mierda.
+    agregar la cuarta columna
+*/
+OnewireKeypad <Print, 12 > Teclado1(Serial, Teclas, 4, 3, A0, 4700, 1000 );
+int TeclaPresionada;
+
+void setupM1() {
+    estadoM1 = 0;
+    Teclado1.SetHoldTime(40);
+    TeclaPresionada = 0;
+    Serial.begin(9600);
+}
+
+void clearDigits() {
+    digits[0] = 0;    
+    digits[1] = 0;    
+    digits[2] = 0;    
+    digits[3] = 0;    
+    digits[4] = 0;    
+}
+
+void loopM1() {
+    if(TeclaPresionada == 0) {
+        if(Teclado1.Key_State() == HELD) {
+            TeclaPresionada = 1;
+    
+            char pulsacion = Teclado1.Getkey();
+            if (pulsacion != 0) { // bloque deteccion teclas especiales;
+                if (pulsacion == '.') { // punto va a estado decimal
+                    if (estadoM1 < 4) {
+                        estadoM1 = 4;
+                        pulsacion = 0;
+                    } else {
+                        pulsacion = 0;
+                    }
+                } // '.'
+/*        
+                if (pulsacion == 'A') { // A inicia medicion
+                    inputString = "#M";
+                    for(int i=0; i<5; i++) {
+                        inputString += digits[i]; 
+                    }
+                    stringComplete = true;
+                    estadoM1 = 0;
+                    clearDigits();
+                    pulsacion = 0;
+                }
+
+                if (pulsacion == 'B') { // B do nothing
+                    pulsacion = 0;
+                }
+        
+                if (pulsacion == 'C') { // C Cancela
+                    inputString = "#C";
+                    stringComplete = true;
+                    estadoM1 = 0;
+                    clearDigits();
+                    pulsacion = 0;
+                }
+
+                if (pulsacion == 'D') { // D do nothing
+                    pulsacion = 0;
+                }
+                
+                if (pulsacion == '#') { // # do nothing
+                    pulsacion = 0;
+                }
+*/
+
+                if (pulsacion == '#') { // # Cancela
+                    inputString = "#C";
+                    stringComplete = true;
+                    estadoM1 = 0;
+                    clearDigits();
+                    pulsacion = 0;
+                }
+        
+                refreshDisplay();
+            }
+            
+            if (pulsacion != 0) {
+                switch(estadoM1) {
+                    case 0 :    digits[3] =  pulsacion - '0';
+                                estadoM1 = 1;
+                                break;
+                    case 1 :    digits[2] = digits[3];
+                                digits[3] =  pulsacion - '0';
+                                estadoM1 = 2;
+                                break;
+                    case 2 :    digits[1] = digits[2];
+                                digits[2] = digits[3];
+                                digits[3] =  pulsacion - '0';
+                                estadoM1 = 3;
+                                break;
+                    case 3 :    digits[0] = digits[1];
+                                digits[1] = digits[2];
+                                digits[2] = digits[3];
+                                digits[3] =  pulsacion - '0';
+                                estadoM1 = 4;
+                                break;
+                    case 4 :    digits[4] =  pulsacion - '0';
+                                estadoM1 = 5;
+                                break;
+                } // switch
+                
+                refreshDisplay();
+            } // if pulsacion
+        } // IF HELD
+    } // if TeclaPresionada
+
+    if(TeclaPresionada == 1) {
+        if(Teclado1.Key_State() == RELEASED) {
+            TeclaPresionada = 0;
+        }
+    }
+    
+} // loop
